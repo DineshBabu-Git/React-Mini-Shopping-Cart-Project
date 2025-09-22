@@ -1,12 +1,59 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## FakeCart → (A Simple Shopping Cart Project using → React + Tailwind)
 
-## Expanding the ESLint configuration
+A simple React app that fetches products from the **Fake Store API** and lets you add them to a shopping cart.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The cart opens in a **modal**, shows all added products, and allows you to remove items.
+
+--------------------------------------------------------------------------------------------------------------------
+
+## Features
+
+- Fetch products from **Fake Store API**
+- Display products in a responsive grid with:
+  - Image
+  - Title
+  - Price
+  - Add to Cart button
+- Add products to cart
+- Prevent duplicates → Shows an Alert if the item is already in cart
+- Navbar with **cart item count**
+- Modal that displays all cart items
+- Remove products from the cart
+- Responsive design with Tailwind CSS
+
+--------------------------------------------------------------------------------------------------------------------
+
+## Tech Stack
+
+- **React (Vite)** → app framework
+- **Tailwind CSS** → styling
+- **JavaScript (ES6)** → functionality
+- **Fake Store API** → product data
+
+--------------------------------------------------------------------------------------------------------------------
+
+## Getting Started
+
+1. Clone the project and open it in VS Code.  
+2. Go to File → Open Folder.
+3. Select your project folder.
+4. Open terminal at the bottom of VS Code and Run below commands.
+5. Run :
+   npm install
+   npm run dev
+
+--------------------------------------------------------------------------------------------------------------------
+
+## License
+
+This project is open-source and free to use for educational and personal projects.
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
