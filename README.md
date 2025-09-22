@@ -1,6 +1,4 @@
 
-
-
 ## FakeCart → (A Simple Shopping Cart Project using → React + Tailwind)
 
 A simple React app that fetches products from the **Fake Store API** and lets you add them to a shopping cart.  
